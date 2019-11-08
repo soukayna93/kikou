@@ -1,0 +1,223 @@
+
+souka@LAPTOP-UNRT5KLC ~
+$ cd
+
+souka@LAPTOP-UNRT5KLC ~
+$ ls
+cours_info  lol.html
+
+souka@LAPTOP-UNRT5KLC ~
+$ git clone https://github.com/carlossoukayna/kikou.git
+Cloning into 'kikou'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+
+souka@LAPTOP-UNRT5KLC ~
+$ cd kikou
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ touch kikou.txt
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ touche readme.md
+-bash: touche : commande introuvable
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ touch readme.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git add readme.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git add kikou.txt
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'souka@LAPTOP-UNRT5KLC.(none)')
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit 'soukayna93'
+error: pathspec 'soukayna93' did not match any file(s) known to git
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit 'soukayna.t@icloud.com'
+error: pathspec 'soukayna.t@icloud.com' did not match any file(s) known to git
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git config --global user.email "soukayna.t@icloud.com"
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit "soukayna93"
+error: pathspec 'soukayna93' did not match any file(s) known to git
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit "soukayna.t@icloud.Com"
+error: pathspec 'soukayna.t@icloud.Com' did not match any file(s) known to git
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ ls
+kikou.txt  readme.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ cd git-thp
+-bash: cd: git-thp: No such file or directory
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git init
+Reinitialized existing Git repository in C:/cygwin64/home/souka/kikou/.git/
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ mkdir cours_01
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ mkdir cours_02
+
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ mkdir cours_03
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ mkdir cours_04
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ touch readme.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ touch syllabus.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ cd cours_01
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_01
+$ cd cours_01
+-bash: cd: cours_01: No such file or directory
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_01
+$
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_01
+$ touch terminal.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_01
+$ touch git.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_01
+$ cd ../..
+
+souka@LAPTOP-UNRT5KLC ~
+$ cd git-htp
+-bash: cd: git-htp: No such file or directory
+
+souka@LAPTOP-UNRT5KLC ~
+$ cd kikou
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ cd cours_02
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_02
+$ touch a
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_02
+$ cd ../..
+
+souka@LAPTOP-UNRT5KLC ~
+$ cd kikou
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ cd cours_03
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_03
+$ touch b
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_03
+$ cd ../..
+
+souka@LAPTOP-UNRT5KLC ~
+$ cd kikou
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ cd cours_04
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_04
+$ touch c
+
+souka@LAPTOP-UNRT5KLC ~/kikou/cours_04
+$ cd ../..
+
+souka@LAPTOP-UNRT5KLC ~
+$ cd kikou
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ ls
+cours_01  cours_02  cours_03  cours_04  kikou.txt  readme.md  syllabus.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$  git add readme.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git add syllabus.md
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git add cours_02
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git add cours_03
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git add cours_04
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git add cours_01
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit "soukayna.t@icloud.com"
+error: pathspec 'soukayna.t@icloud.com' did not match any file(s) known to git
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git config --global user.email "soukayna.t@icloud.Com"
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit test
+error: pathspec 'test' did not match any file(s) known to git
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git commit username "soukayna93"
+error: pathspec 'username' did not match any file(s) known to git
+error: pathspec 'soukayna93' did not match any file(s) known to git
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$ git log
+commit fe6fd1b9c551abd385faa8c161c1f5e5f5e67504 (HEAD -> master, origin/master, origin/HEAD)
+Author: carlossoukayna <57180590+carlossoukayna@users.noreply.github.com>
+Date:   Fri Nov 8 16:49:14 2019 +0100
+
+    Update readme.md
+
+commit ac641c0eb389dde3b3c20aaa14d5791838a683c1
+Author: velez posada <velezposada@MacBook-Air-de-Karlos.local>
+Date:   Fri Nov 8 16:48:20 2019 +0100
+
+    kikou
+
+souka@LAPTOP-UNRT5KLC ~/kikou
+$
